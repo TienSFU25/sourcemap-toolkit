@@ -67,6 +67,11 @@ namespace SourcemapToolkit.SourcemapParser
             }
 
             return index >= 0 ? ParsedMappings[index] : null;
-		}
-	}
+        }
+
+        public static SourceMap CombineMaps(List<SourceMap> maps)
+        {
+            return null;
+        }
+    }
 }
